@@ -1,7 +1,10 @@
-What This Project Is About
+**What This Project Is About**
+
 I built an unsupervised machine learning model that automatically segments customers. The goal was to help marketing teams understand their customers better so they can create more targeted campaigns. Instead of treating all customers the same, this model identifies groups of similar customers who might respond differently to marketing strategies.
 The coolest part? The algorithm finds these patterns on its own without being told what to look for!
-What I Learned
+
+**What I Learned**
+
 Working on this project was quite a journey. Here are the main skills I picked up:
 
 Data Preprocessing: Getting messy real-world data into a usable format (more complicated than it sounds!)
@@ -11,7 +14,9 @@ Principal Component Analysis (PCA): Simplifying complex data while keeping the i
 Data Visualization: Making charts and graphs that actually tell a story
 
 I also got way more comfortable with Python and learned how to think through machine learning problems from start to finish.
-The Dataset
+
+**The Dataset**
+
 I used the Marketing Campaign dataset from Kaggle, which has information about customers like:
 
 Their age, education, and family situation
@@ -27,11 +32,11 @@ Python 3.7 or newer
 Jupyter Notebook or Google Colab
 Some Python basics (but you can learn as you go)
 
-Setup:
+**Setup:**
 
 Clone this repo:
 
-bashgit clone https://github.com/yourusername/customer-segmentation-analysis.git
+bash git clone https://github.com/yourusername/customer-segmentation-analysis.git
 cd customer-segmentation-analysis
 
 Install the packages you'll need:
@@ -49,18 +54,22 @@ customer-segmentation-analysis/
 |── Finished_version_Sentiment_Analysis_NSDC_Data_Science_Project.ipynb    # My completed analysis
 └── README.md                     # You're reading it!
 
-My Process (The Three Main Steps)
+**My Process (The Three Main Steps)**
+
 Step 1: Getting the Data Ready
 First, I had to clean up the data. This meant handling missing values, removing outliers, and ensuring everything was in a format the model could use. Not the most exciting part, but definitely important!
+
 Step 2: Creating Better Features
 This was interesting. I took the raw data and created new features to help the clustering algorithm perform its task more effectively—things like calculating total spending, engagement scores, and customer lifetime patterns.
+
 Step 3: The Actual Machine Learning Part
 Here's where it got fun! I used K-Means clustering to group customers and PCA to visualize everything in 2D. I experimented with different numbers of clusters and used techniques like the elbow method to figure out what made sense. Then I analyzed each segment to understand what made them unique.
+
 Two Versions Available
 I've included both versions in this repo:
 
-blank_version.ipynb: This is basically the template I started with. If you want to learn by doing, start here!
-finished_version.ipynb: This is my complete solution. You can use it as a reference or to see how I approach different problems.
+Blank_version_Sentiment_Analysis_NSDC_Data_Science_Project.ipynb: This is basically the template I started with. If you want to learn by doing, start here!
+ Finished_version_Sentiment_Analysis_NSDC_Data_Science_Project.ipynb: This is my complete solution. You can use it as a reference or to see how I approach different problems.
 
 Honestly, I learned the most by struggling through it myself first, then checking the finished version when I got stuck.
 Time Investment
