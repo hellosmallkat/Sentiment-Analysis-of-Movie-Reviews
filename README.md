@@ -36,7 +36,7 @@ Some Python basics (but you can learn as you go)
 
 Clone this repo:
 
-bash git clone https://github.com/yourusername/customer-segmentation-analysis.git
+bash git clone [https://github.com/yourusername/customer-segmentation-analysis.git](https://github.com/hellosmallkat/Sentiment-Analysis-of-Movie-Reviews/tree/main)
 cd customer-segmentation-analysis
 
 Install the packages you'll need:
